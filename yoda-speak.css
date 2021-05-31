@@ -1,0 +1,46 @@
+
+body{
+    margin:0;
+    margin-top: 0;
+    background-image:url("yoda.jpg");
+}
+
+.div-one{
+    padding:1rem;
+    font-size:x-large;
+    color:white;
+    text-align:center;
+}
+.div-two{
+    text-align:center;
+    color:white;
+    font-size:100px;
+    font-weight: 700;
+    margin: 2rem;
+}
+.main{
+    display:flex;
+    justify-content: flex-start;
+}
+#input-text{
+    width:650px;
+    height:400px;
+    margin: 2rem;
+}
+#btn-translate{
+    padding:1rem 2rem;
+    margin-left: 2rem;
+}
+.div-output{
+    box-sizing: border-box;
+    width:700px;
+    color: white;
+    border:1px solid;
+    margin:2rem;
+    padding:1rem;
+    font-size:large;
+    height:400px;
+}
+.last-div{
+    padding:2rem;
+}
