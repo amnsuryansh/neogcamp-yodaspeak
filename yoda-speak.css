@@ -1,46 +1,71 @@
-
-body{
-    margin:0;
+body {
+    margin: 0;
     margin-top: 0;
-    background-image:url("yoda.jpg");
+    background-image: url("baby-yoda.jpg");
 }
 
-.div-one{
-    padding:1rem;
-    font-size:x-large;
-    color:white;
-    text-align:center;
+.div-one {
+    padding: 1rem;
+    font-size: large;
+    text-align: center;
+    background-color: #1A324C;
+    color: white;
 }
-.div-two{
-    text-align:center;
+
+.div-two {
+    text-align: center;
     color:white;
-    font-size:100px;
+    font-size: 100px;
     font-weight: 700;
     margin: 2rem;
 }
-.main{
-    display:flex;
+.main {
+    display: flex;
     justify-content: flex-start;
+    margin:2rem;
+
 }
-#input-text{
-    width:650px;
-    height:400px;
-    margin: 2rem;
+#div-input{
+    display:flex;
+    align-items: flex-start;
+}
+#input-text {
+    width:500px;
+    height: 300px;
+    margin:2rem;
 }
 #btn-translate{
-    padding:1rem 2rem;
-    margin-left: 2rem;
-}
-.div-output{
-    box-sizing: border-box;
-    width:700px;
-    color: white;
-    border:1px solid;
+    padding: 1rem;
+    display: flex;
+    align-self:center;
     margin:2rem;
-    padding:1rem;
-    font-size:large;
-    height:400px;
+   
 }
-.last-div{
+#div-output {
+    width:500px;
+    height:300px;
+    margin:2rem;
+    background-color: white;
+    color:black;
+    border: 1px solid;
+    font-size: large;
+}
+footer{
+   
+    margin-top:2rem;
+    background-color:#1A324C ;
     padding:2rem;
+    
 }
+#div-footer{
+    text-align: center;
+    font-size: x-large;
+}
+#para-footer{
+    margin-top: 1rem;
+    font-size: large;
+    max-width:700px;
+    margin:auto;
+    
+}
+
