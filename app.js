@@ -1,4 +1,4 @@
-var btntranslate = document.querySelector("#btn-translate");
+var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#input-text");
 var txtOutput = document.querySelector("#div-output");
 
@@ -16,18 +16,18 @@ function errorHandler(error) {
 
 
 function clickbtnHandler() {
-    
+
     var inputText = txtInput.value;
-    
-   
+
+
     fetch(getTranslationURL(inputText))
-     .then(response => response.json())
+        .then(response => response.json())
         .then(json => {
             var translatedText = json.contents.translated;
             txtOutput.innerText = translatedText;
-         
-    })
+
+        })
 }
 
 
-btnTranslate.addEventListener("click",clickbtnHandler)
+btnTranslate.addEventListener("click", clickbtnHandler)
